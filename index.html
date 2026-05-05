@@ -3,152 +3,1030 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lilley's Dog Grooming | Kettering</title>
-    <meta name="description" content="Lilley's Dog Grooming - Professional, caring grooming for your best friend. City &amp; Guilds Level 3 qualified. Based in Kettering, Northamptonshire.">
+    <title>Lilley's Dog Grooming &middot; Kettering &middot; By Appointment</title>
+    <meta name="description" content="Lilley's Dog Grooming &mdash; City &amp; Guilds Level 3 qualified, first aid trained, 1-to-1 personalised grooming for every breed. Bowland Drive, Kettering. Booking only.">
+    <meta name="theme-color" content="#fbeede">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@300;400;500;600;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+
     <style>
-        :root{--primary:#E8913A;--primary-light:#f0a85c;--primary-rgb:232,145,58;--bg:#faf9f7;--bg-raised:#ffffff;--bg-dark:#1a1a1a;--text:#1a1a1a;--text-secondary:#6b6b6b;--text-muted:#999;--border:rgba(0,0,0,0.07);--border-strong:rgba(0,0,0,0.12);}
-        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;}body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;}
-        nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0 2.5rem;height:68px;display:flex;align-items:center;justify-content:space-between;background:rgba(250,249,247,0.8);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}.nav-logo{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:var(--text);text-decoration:none;font-style:italic;}.nav-links{display:flex;gap:2rem;list-style:none;}.nav-links a{color:var(--text-secondary);text-decoration:none;font-size:0.82rem;font-weight:500;transition:color 0.3s;letter-spacing:0.02em;}.nav-links a:hover{color:var(--primary);}.nav-cta{background:var(--primary);color:#fff;padding:0.55rem 1.5rem;border-radius:100px;text-decoration:none;font-weight:600;font-size:0.8rem;transition:all 0.3s;}.nav-cta:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(var(--primary-rgb),0.3);}.menu-toggle{display:none;background:none;border:1px solid var(--border);color:var(--text);font-size:1.1rem;cursor:pointer;width:40px;height:40px;border-radius:50%;align-items:center;justify-content:center;}
-        .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;position:relative;padding:8rem 2rem 6rem;overflow:hidden;}.hero-orb{position:absolute;width:600px;height:600px;border-radius:50%;filter:blur(120px);pointer-events:none;}.hero-orb-1{top:-20%;left:10%;background:rgba(var(--primary-rgb),0.12);}.hero-orb-2{bottom:-20%;right:10%;background:rgba(var(--primary-rgb),0.08);}.hero-content{position:relative;z-index:2;max-width:700px;}.hero-pill{display:inline-flex;align-items:center;gap:0.5rem;background:var(--bg-raised);border:1px solid var(--border);padding:0.35rem 1rem;border-radius:100px;font-size:0.78rem;font-weight:500;color:var(--text-secondary);margin-bottom:2rem;box-shadow:0 2px 12px rgba(0,0,0,0.04);}.hero-pill .dot{width:6px;height:6px;background:var(--primary);border-radius:50%;}.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,6vw,4.5rem);font-weight:300;line-height:1.1;letter-spacing:-0.02em;margin-bottom:1.5rem;}.hero h1 em{font-style:italic;color:var(--primary);font-weight:400;}.hero p{font-size:1.05rem;color:var(--text-secondary);max-width:480px;margin:0 auto 2.5rem;line-height:1.7;}.hero-btns{display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;}.btn-soft{background:var(--primary);color:#fff;padding:0.8rem 2rem;border-radius:100px;text-decoration:none;font-weight:600;font-size:0.88rem;transition:all 0.3s;border:none;cursor:pointer;}.btn-soft:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(var(--primary-rgb),0.25);}.btn-light{background:var(--bg-raised);color:var(--text);padding:0.8rem 2rem;border-radius:100px;text-decoration:none;font-weight:600;font-size:0.88rem;border:1px solid var(--border-strong);transition:all 0.3s;}.btn-light:hover{border-color:var(--primary);color:var(--primary);}
-        .stats-strip{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg-raised);}.stat-cell{text-align:center;padding:2rem 1rem;border-right:1px solid var(--border);}.stat-cell:last-child{border-right:none;}.stat-val{font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:600;color:var(--primary);}.stat-lbl{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--text-muted);font-weight:500;margin-top:0.2rem;}
-        section{padding:6rem 2rem;}.container{max-width:1050px;margin:0 auto;}.sec-eyebrow{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.15em;color:var(--primary);font-weight:600;margin-bottom:0.75rem;}.sec-heading{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:400;margin-bottom:0.5rem;}.sec-sub{color:var(--text-secondary);font-size:0.95rem;max-width:480px;line-height:1.7;}
-        .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;margin-top:3rem;}.about-img{border-radius:24px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 20px 60px rgba(0,0,0,0.08);}.about-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s;}.about-img:hover img{transform:scale(1.03);}.about-body h3{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:500;margin-bottom:1rem;}.about-body p{color:var(--text-secondary);line-height:1.8;margin-bottom:1rem;}
-        .svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin-top:3rem;}.svc-card{background:var(--bg-raised);border:1px solid var(--border);border-radius:20px;padding:2rem;transition:all 0.3s;box-shadow:0 2px 12px rgba(0,0,0,0.03);}.svc-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,0.08);border-color:rgba(var(--primary-rgb),0.2);}.svc-icon{width:48px;height:48px;border-radius:14px;background:rgba(var(--primary-rgb),0.1);display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin-bottom:1rem;}.svc-card h3{font-size:1.05rem;font-weight:600;margin-bottom:0.4rem;}.svc-card p{color:var(--text-secondary);font-size:0.88rem;line-height:1.6;}.svc-price-tag{display:inline-flex;margin-top:0.75rem;color:var(--primary);font-weight:600;font-size:0.85rem;}
-        .gal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0.75rem;margin-top:3rem;}.gal-cell{border-radius:16px;overflow:hidden;aspect-ratio:1;box-shadow:0 4px 20px rgba(0,0,0,0.06);}.gal-cell img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s;}.gal-cell:hover img{transform:scale(1.06);}
-        .rev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem;margin-top:3rem;}.rev-card{background:var(--bg-raised);border:1px solid var(--border);border-radius:20px;padding:2rem;box-shadow:0 2px 12px rgba(0,0,0,0.03);transition:all 0.3s;}.rev-card:hover{box-shadow:0 8px 30px rgba(0,0,0,0.06);}.rev-stars{color:#f59e0b;font-size:0.9rem;margin-bottom:1rem;}.rev-text{color:var(--text-secondary);font-size:0.9rem;line-height:1.75;margin-bottom:1.25rem;font-style:italic;}.rev-author-row{display:flex;align-items:center;gap:0.75rem;}.rev-avatar{width:36px;height:36px;border-radius:50%;background:rgba(var(--primary-rgb),0.12);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:0.8rem;color:var(--primary);}.rev-name{font-weight:600;font-size:0.85rem;}.rev-from{color:var(--text-muted);font-size:0.72rem;}
-        .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:3rem;}.contact-card{background:var(--bg-raised);border:1px solid var(--border);border-radius:20px;padding:2.5rem;box-shadow:0 2px 12px rgba(0,0,0,0.03);}.contact-card h3{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:500;margin-bottom:1.5rem;}.hrs-tbl{width:100%;border-collapse:collapse;}.hrs-tbl tr{border-bottom:1px solid var(--border);}.hrs-tbl tr:last-child{border-bottom:none;}.hrs-tbl td{padding:0.6rem 0;font-size:0.88rem;}.hrs-tbl td:first-child{font-weight:500;}.hrs-tbl td:last-child{text-align:right;color:var(--text-secondary);}.ct-list{display:flex;flex-direction:column;gap:1.25rem;}.ct-item{display:flex;align-items:center;gap:1rem;}.ct-ico{width:44px;height:44px;border-radius:12px;background:rgba(var(--primary-rgb),0.08);border:1px solid rgba(var(--primary-rgb),0.1);display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;}.ct-lbl{font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em;}.ct-val{font-weight:500;font-size:0.9rem;}.ct-val a{color:var(--text);text-decoration:none;transition:color 0.2s;}.ct-val a:hover{color:var(--primary);}
-        .map-frame{margin-top:2rem;border-radius:20px;overflow:hidden;height:300px;border:1px solid var(--border);box-shadow:0 4px 20px rgba(0,0,0,0.06);}.map-frame iframe{width:100%;height:100%;border:0;}
-        .cta-sec{text-align:center;padding:6rem 2rem;}.cta-sec h2{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3rem);font-weight:400;margin-bottom:0.75rem;}.cta-sec p{color:var(--text-secondary);margin-bottom:2rem;max-width:450px;margin-left:auto;margin-right:auto;}
-        footer{border-top:1px solid var(--border);padding:2rem;background:var(--bg-raised);}.foot-inner{max-width:1050px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;}.foot-logo{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--text-secondary);font-style:italic;}.foot-links{display:flex;gap:1.5rem;}.foot-links a{color:var(--text-muted);text-decoration:none;font-size:0.8rem;transition:color 0.2s;}.foot-links a:hover{color:var(--text);}.foot-credit{color:var(--text-muted);font-size:0.75rem;}.foot-credit a{color:var(--text-secondary);text-decoration:none;}
-        .reveal{opacity:0;transform:translateY(20px);transition:opacity 0.7s cubic-bezier(0.16,1,0.3,1),transform 0.7s cubic-bezier(0.16,1,0.3,1);}.reveal.visible{opacity:1;transform:translateY(0);}.reveal-d1{transition-delay:0.1s;}.reveal-d2{transition-delay:0.2s;}.reveal-d3{transition-delay:0.3s;}
-        @media(max-width:768px){.nav-links{display:none;}.menu-toggle{display:flex;}.nav-links.open{display:flex;flex-direction:column;position:absolute;top:calc(100%+1px);left:1rem;right:1rem;background:rgba(250,249,247,0.97);backdrop-filter:blur(20px);padding:1rem;border-radius:16px;border:1px solid var(--border);gap:0.5rem;}nav{padding:0 1.5rem;}.hero{padding:7rem 1.5rem 4rem;}.stats-strip{grid-template-columns:repeat(2,1fr);}.stat-cell{border-bottom:1px solid var(--border);}.about-grid,.contact-grid{grid-template-columns:1fr;}.svc-grid{grid-template-columns:1fr;}.hero-btns{flex-direction:column;align-items:center;}section{padding:4rem 1.5rem;}}
+        :root{
+            --cream:#fbeede;
+            --cream-2:#f4e1c9;
+            --cream-3:#ecd4b3;
+            --navy:#1d2a3a;
+            --navy-2:#2a394c;
+            --navy-mute:#5a6776;
+            --coral:#ed7d62;
+            --coral-deep:#d4654a;
+            --sand:#d4b18d;
+            --sand-deep:#b8966f;
+            --line:rgba(29,42,58,0.12);
+            --line-strong:rgba(29,42,58,0.22);
+            --paper:#fff7ea;
+        }
+        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+        ::selection{background:var(--coral);color:var(--cream);}
+        html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;}
+        body{
+            font-family:'Manrope',system-ui,sans-serif;
+            background:var(--cream);
+            color:var(--navy);
+            line-height:1.65;
+            overflow-x:hidden;
+        }
+        /* subtle grain to make the cream feel like paper */
+        body::before{
+            content:'';position:fixed;inset:0;pointer-events:none;z-index:1;mix-blend-mode:multiply;opacity:0.18;
+            background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.45  0 0 0 0 0.35  0 0 0 0 0.25  0 0 0 0.4 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+        }
+
+        .display{font-family:'DM Serif Display',Georgia,serif;font-weight:400;letter-spacing:-0.01em;}
+        .hand{font-family:'Caveat',cursive;font-weight:600;}
+        .coral{color:var(--coral);}
+        .navy{color:var(--navy);}
+
+        /* ========= NAV ========= */
+        nav{
+            position:fixed;top:0;left:0;right:0;z-index:50;
+            padding:1.1rem 2rem;display:flex;align-items:center;justify-content:space-between;
+            transition:background 0.4s,padding 0.4s,border 0.4s,box-shadow 0.4s;
+            border-bottom:1px solid transparent;
+        }
+        nav.scrolled{
+            background:rgba(251,238,222,0.88);backdrop-filter:blur(14px) saturate(140%);
+            border-bottom-color:var(--line);padding:0.65rem 2rem;
+            box-shadow:0 8px 30px -20px rgba(29,42,58,0.18);
+        }
+        .nav-logo{display:flex;align-items:center;gap:0.7rem;text-decoration:none;color:var(--navy);}
+        .nav-logo svg{width:36px;height:36px;color:var(--navy);}
+        .nav-logo .word{font-family:'DM Serif Display',serif;font-size:1.35rem;letter-spacing:-0.01em;line-height:1;}
+        .nav-logo .word em{font-style:italic;color:var(--coral);}
+        .nav-links{display:flex;gap:2.1rem;list-style:none;align-items:center;}
+        .nav-links a{
+            color:var(--navy-2);text-decoration:none;
+            font-size:0.82rem;font-weight:500;letter-spacing:0.02em;
+            transition:color 0.3s;position:relative;padding:0.2rem 0;
+        }
+        .nav-links a::after{content:'';position:absolute;bottom:-3px;left:0;width:0;height:2px;background:var(--coral);transition:width 0.4s cubic-bezier(0.7,0,0.3,1);border-radius:2px;}
+        .nav-links a:hover{color:var(--navy);}
+        .nav-links a:hover::after{width:100%;}
+        .nav-cta{
+            background:var(--coral);color:var(--cream);text-decoration:none;
+            font-size:0.8rem;font-weight:600;letter-spacing:0.01em;
+            padding:0.65rem 1.3rem;border-radius:100px;
+            transition:all 0.3s;display:inline-flex;align-items:center;gap:0.45rem;
+            border:1.5px solid var(--coral);
+        }
+        .nav-cta:hover{background:var(--coral-deep);border-color:var(--coral-deep);transform:translateY(-1px);box-shadow:0 10px 24px -10px rgba(237,125,98,0.55);}
+        .menu-toggle{display:none;background:none;border:1.5px solid var(--line-strong);color:var(--navy);width:42px;height:42px;cursor:pointer;align-items:center;justify-content:center;border-radius:12px;}
+
+        /* ========= HERO ========= */
+        .hero{
+            min-height:100vh;position:relative;display:flex;flex-direction:column;justify-content:center;
+            padding:8rem 2.5rem 5rem;overflow:hidden;
+        }
+        .hero::before{
+            content:'';position:absolute;top:-15%;right:-10%;width:60%;height:75%;
+            background:radial-gradient(ellipse at center,rgba(237,125,98,0.18) 0%,transparent 65%);
+            pointer-events:none;z-index:0;
+        }
+        .hero::after{
+            content:'';position:absolute;bottom:-15%;left:-10%;width:55%;height:60%;
+            background:radial-gradient(ellipse at center,rgba(212,177,141,0.28) 0%,transparent 60%);
+            pointer-events:none;z-index:0;
+        }
+        .hero-meta{
+            position:relative;z-index:3;display:flex;justify-content:space-between;align-items:flex-start;
+            font-size:0.72rem;text-transform:uppercase;letter-spacing:0.18em;color:var(--navy-mute);font-weight:600;
+            margin-bottom:auto;padding-bottom:3rem;
+        }
+        .hero-meta .ml{display:flex;gap:1.5rem;align-items:center;}
+        .hero-meta .ml .pulse{color:var(--coral);}
+        .hero-meta .ml .pulse::before{content:'●';margin-right:0.35rem;animation:pulse 2.4s ease-in-out infinite;display:inline-block;}
+        @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.4;}}
+
+        .hero-content{position:relative;z-index:3;max-width:1280px;}
+        .hero-tag{
+            font-size:0.78rem;text-transform:uppercase;letter-spacing:0.22em;color:var(--coral);font-weight:600;
+            margin-bottom:1.5rem;display:inline-flex;align-items:center;gap:0.85rem;
+        }
+        .hero-tag::before{content:'';width:32px;height:1.5px;background:var(--coral);}
+
+        .hero h1{
+            font-family:'DM Serif Display',serif;font-weight:400;
+            font-size:clamp(3rem,9.5vw,7rem);line-height:0.98;letter-spacing:-0.02em;
+            margin-bottom:1.4rem;color:var(--navy);
+        }
+        .hero h1 .row{display:block;}
+        .hero h1 em{font-style:italic;color:var(--coral);}
+        .hero h1 .hand{
+            font-family:'Caveat',cursive;font-weight:700;font-size:0.78em;
+            color:var(--coral);display:inline-block;transform:rotate(-2deg) translateY(0.05em);margin:0 0.1em;
+        }
+        .hero h1 .underline-mark{position:relative;display:inline-block;}
+        .hero h1 .underline-mark::after{
+            content:'';position:absolute;left:-2%;right:-2%;bottom:0.05em;height:0.4em;
+            background:rgba(212,177,141,0.55);z-index:-1;border-radius:50% 20% 80% 30% / 60% 40% 60% 40%;
+        }
+
+        .hero-bottom{
+            display:grid;grid-template-columns:1fr auto 1fr;gap:3rem;align-items:end;
+            padding:2.4rem 0 0;margin-top:2.5rem;border-top:1.5px dashed var(--line-strong);
+        }
+        .hero-lede{max-width:420px;font-size:1rem;color:var(--navy-2);line-height:1.75;}
+        .hero-lede strong{color:var(--navy);font-weight:600;}
+        .hero-icon{justify-self:center;}
+        .hero-icon svg{width:90px;height:90px;color:var(--navy);opacity:0.85;}
+        .hero-btns{display:flex;gap:0.85rem;flex-wrap:wrap;justify-self:end;}
+
+        .btn{
+            display:inline-flex;align-items:center;gap:0.6rem;
+            font-size:0.85rem;font-weight:600;letter-spacing:0.01em;text-decoration:none;cursor:pointer;
+            padding:0.95rem 1.6rem;border:1.5px solid;transition:all 0.35s cubic-bezier(0.7,0,0.3,1);
+            border-radius:100px;font-family:'Manrope',sans-serif;
+        }
+        .btn-solid{background:var(--coral);color:var(--cream);border-color:var(--coral);}
+        .btn-solid:hover{background:var(--coral-deep);border-color:var(--coral-deep);transform:translateY(-2px);box-shadow:0 14px 30px -10px rgba(237,125,98,0.5);}
+        .btn-ghost{background:transparent;color:var(--navy);border-color:var(--navy);}
+        .btn-ghost:hover{background:var(--navy);color:var(--cream);}
+        .btn .arr{transition:transform 0.35s cubic-bezier(0.7,0,0.3,1);}
+        .btn:hover .arr{transform:translateX(4px);}
+
+        /* ========= MARQUEE ========= */
+        .marquee{
+            border-top:1.5px solid var(--line-strong);border-bottom:1.5px solid var(--line-strong);
+            background:var(--paper);overflow:hidden;padding:1.4rem 0;position:relative;
+        }
+        .marquee-track{display:flex;gap:3rem;width:max-content;animation:scroll 42s linear infinite;}
+        .marquee-item{
+            font-family:'DM Serif Display',serif;font-size:1.6rem;letter-spacing:-0.01em;
+            color:var(--navy);white-space:nowrap;display:flex;align-items:center;gap:2.5rem;
+        }
+        .marquee-item .dot{color:var(--coral);font-size:1.1rem;}
+        .marquee-item.italic{font-style:italic;color:var(--sand-deep);font-size:1.5rem;}
+        .marquee-item.hand{font-family:'Caveat',cursive;color:var(--coral);font-size:2.1rem;font-weight:600;}
+        @keyframes scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+        /* ========= SECTION SHELL ========= */
+        section{padding:7rem 2.5rem;position:relative;}
+        .container{max-width:1200px;margin:0 auto;position:relative;}
+        .sec-num{
+            font-size:0.74rem;text-transform:uppercase;font-weight:600;
+            letter-spacing:0.22em;color:var(--coral);margin-bottom:1.4rem;
+            display:flex;align-items:center;gap:0.85rem;
+        }
+        .sec-num::before{content:'';width:32px;height:1.5px;background:var(--coral);}
+        .sec-title{
+            font-family:'DM Serif Display',serif;font-size:clamp(2.2rem,5vw,4rem);
+            line-height:1;letter-spacing:-0.02em;margin-bottom:1.2rem;color:var(--navy);
+        }
+        .sec-title em{font-style:italic;color:var(--coral);}
+        .sec-title .hand{font-family:'Caveat',cursive;color:var(--coral);font-size:0.85em;display:inline-block;transform:rotate(-1deg);font-weight:600;}
+        .sec-desc{color:var(--navy-2);font-size:1.02rem;max-width:540px;line-height:1.78;}
+
+        /* ========= ABOUT ========= */
+        .about{border-top:1px solid var(--line);}
+        .about-grid{display:grid;grid-template-columns:5fr 7fr;gap:5rem;margin-top:3.5rem;align-items:start;}
+        .about-img{position:relative;aspect-ratio:4/5;overflow:hidden;border-radius:6px;background:var(--cream-3);box-shadow:0 30px 60px -25px rgba(29,42,58,0.3);}
+        .about-img img{width:100%;height:100%;object-fit:cover;filter:saturate(0.92) contrast(1.04);}
+        .about-img::before{
+            content:'';position:absolute;inset:0;border:8px solid var(--paper);pointer-events:none;z-index:2;
+        }
+        .about-img-stamp{
+            position:absolute;bottom:1.4rem;left:1.4rem;background:var(--paper);
+            padding:0.55rem 0.9rem;border-radius:4px;
+            font-size:0.66rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--navy);font-weight:600;
+            border:1px solid var(--line-strong);z-index:3;
+        }
+        .about-img .hand-tag{
+            position:absolute;top:-1.3rem;right:-0.5rem;background:var(--coral);color:var(--cream);
+            font-family:'Caveat',cursive;font-size:1.4rem;padding:0.3rem 1.1rem 0.4rem;
+            transform:rotate(4deg);z-index:4;border-radius:3px;font-weight:600;
+            box-shadow:0 6px 14px -4px rgba(237,125,98,0.5);
+        }
+        .about-copy{padding-top:1rem;}
+        .about-quote{
+            font-family:'DM Serif Display',serif;font-style:italic;
+            font-size:clamp(1.55rem,2.4vw,2rem);line-height:1.32;color:var(--navy);
+            margin-bottom:2rem;padding-left:1.5rem;border-left:3px solid var(--coral);
+        }
+        .about-quote .hand{font-family:'Caveat',cursive;color:var(--coral);font-size:1.4em;line-height:0.5;display:inline-block;transform:translateY(0.18em);font-weight:700;}
+        .about-text{color:var(--navy-2);font-size:1rem;line-height:1.85;margin-bottom:1.1rem;}
+        .about-text strong{color:var(--navy);font-weight:600;}
+        .about-creds{display:flex;gap:0.7rem;flex-wrap:wrap;margin-top:1.6rem;padding-top:1.6rem;border-top:1.5px dashed var(--line-strong);}
+        .about-cred{
+            display:inline-flex;align-items:center;gap:0.5rem;
+            background:var(--paper);border:1.5px solid var(--line-strong);
+            padding:0.5rem 0.95rem;border-radius:100px;
+            font-size:0.78rem;font-weight:600;color:var(--navy);
+        }
+        .about-cred .ic{color:var(--coral);}
+
+        /* ========= STATS STRIP ========= */
+        .strip{display:grid;grid-template-columns:repeat(4,1fr);background:var(--paper);border-top:1.5px solid var(--line-strong);border-bottom:1.5px solid var(--line-strong);}
+        .strip-cell{padding:2.6rem 2rem;border-right:1px solid var(--line);position:relative;text-align:center;}
+        .strip-cell:last-child{border-right:none;}
+        .strip-cell .k{font-family:'DM Serif Display',serif;font-size:2.6rem;color:var(--navy);letter-spacing:-0.02em;line-height:1;margin-bottom:0.4rem;}
+        .strip-cell .k em{font-style:italic;color:var(--coral);}
+        .strip-cell .l{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.2em;color:var(--navy-mute);font-weight:600;}
+        .strip-cell .idx{position:absolute;top:0.7rem;left:0.85rem;font-size:0.62rem;color:var(--sand-deep);letter-spacing:0.12em;font-weight:600;}
+
+        /* ========= SERVICES ========= */
+        .services{border-top:1px solid var(--line);}
+        .svc-head{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:end;margin-bottom:3.5rem;}
+        .svc-foot{font-size:0.82rem;color:var(--navy-mute);text-align:right;font-weight:500;}
+        .svc-foot .coral{font-weight:600;}
+        .svc-list{border-top:1.5px solid var(--line-strong);}
+        .svc-row{
+            display:grid;grid-template-columns:80px 1fr 1.5fr auto;gap:2.5rem;
+            padding:2.2rem 0.5rem;border-bottom:1px dashed var(--line-strong);
+            align-items:center;cursor:pointer;text-decoration:none;color:inherit;
+            transition:padding 0.4s cubic-bezier(0.7,0,0.3,1),background 0.4s;
+            position:relative;
+        }
+        .svc-row::before{
+            content:'';position:absolute;left:0;top:0;height:100%;width:0;
+            background:linear-gradient(90deg,rgba(237,125,98,0.08) 0%,transparent 100%);
+            transition:width 0.5s cubic-bezier(0.7,0,0.3,1);z-index:-1;
+        }
+        .svc-row:hover{padding-left:1.5rem;}
+        .svc-row:hover::before{width:100%;}
+        .svc-row:hover .svc-name{color:var(--coral);}
+        .svc-row:hover .svc-arr{transform:translateX(0);opacity:1;color:var(--coral);}
+        .svc-num{font-size:0.78rem;color:var(--coral);letter-spacing:0.18em;font-weight:600;}
+        .svc-name{font-family:'DM Serif Display',serif;font-size:clamp(1.4rem,2.3vw,2rem);letter-spacing:-0.01em;color:var(--navy);transition:color 0.3s;}
+        .svc-desc{color:var(--navy-mute);font-size:0.94rem;line-height:1.65;}
+        .svc-price{display:flex;flex-direction:column;align-items:flex-end;gap:0.25rem;text-align:right;}
+        .svc-price .from{font-size:0.62rem;text-transform:uppercase;letter-spacing:0.18em;color:var(--navy-mute);font-weight:600;}
+        .svc-price .amt{font-family:'DM Serif Display',serif;font-style:italic;font-size:1.55rem;color:var(--coral);line-height:1;letter-spacing:-0.01em;}
+        .svc-price .amt.consult{font-style:italic;font-size:1.15rem;color:var(--sand-deep);}
+        .svc-arr{color:var(--navy-mute);transform:translateX(-8px);opacity:0;transition:all 0.4s;font-size:1.1rem;}
+
+        /* ========= SIZE PRICING ========= */
+        .sizing{border-top:1px solid var(--line);background:var(--paper);position:relative;}
+        .sizing::before{
+            content:'';position:absolute;inset:0;pointer-events:none;opacity:0.5;
+            background-image:radial-gradient(circle at 20% 30%,rgba(212,177,141,0.18) 0%,transparent 25%),
+                             radial-gradient(circle at 80% 70%,rgba(237,125,98,0.08) 0%,transparent 30%);
+        }
+        .size-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin-top:3.5rem;}
+        .size-card{
+            background:var(--cream);border:1.5px solid var(--line-strong);border-radius:14px;
+            padding:2rem 1.6rem;position:relative;
+            transition:transform 0.4s cubic-bezier(0.7,0,0.3,1),box-shadow 0.4s,border-color 0.4s;
+        }
+        .size-card:hover{transform:translateY(-5px);box-shadow:0 24px 40px -20px rgba(29,42,58,0.25);border-color:var(--coral);}
+        .size-card .num{position:absolute;top:1rem;right:1.1rem;font-size:0.7rem;color:var(--sand-deep);letter-spacing:0.18em;font-weight:600;}
+        .size-card .pup{width:90px;height:60px;color:var(--navy);margin-bottom:1.2rem;}
+        .size-card h4{font-family:'DM Serif Display',serif;font-size:1.55rem;letter-spacing:-0.01em;margin-bottom:0.3rem;color:var(--navy);}
+        .size-card .breeds{font-size:0.78rem;color:var(--navy-mute);margin-bottom:1.5rem;line-height:1.55;font-style:italic;}
+        .size-rows{display:flex;flex-direction:column;gap:0.65rem;}
+        .size-row{display:flex;justify-content:space-between;align-items:baseline;padding:0.55rem 0;border-bottom:1px dashed var(--line);}
+        .size-row:last-child{border-bottom:none;}
+        .size-row .lbl{font-size:0.86rem;color:var(--navy-2);font-weight:500;}
+        .size-row .val{font-family:'DM Serif Display',serif;font-style:italic;color:var(--coral);font-size:1.1rem;}
+        .size-foot{margin-top:2.5rem;text-align:center;}
+        .size-foot .hand-note{font-family:'Caveat',cursive;font-size:1.5rem;color:var(--coral);font-weight:600;display:inline-block;transform:rotate(-1deg);}
+        .size-foot p{font-size:0.86rem;color:var(--navy-mute);margin-top:0.4rem;}
+
+        /* ========= GALLERY ========= */
+        .gallery{border-top:1px solid var(--line);}
+        .gal-grid{
+            display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:90px;gap:1rem;margin-top:3.5rem;
+        }
+        .gal-cell{
+            position:relative;overflow:hidden;background:var(--cream-3);border-radius:8px;
+            border:1.5px solid var(--line);
+            transition:transform 0.5s cubic-bezier(0.7,0,0.3,1),border-color 0.5s,box-shadow 0.5s;
+        }
+        .gal-cell:hover{transform:translateY(-5px) rotate(-0.5deg);border-color:var(--coral);box-shadow:0 24px 40px -15px rgba(29,42,58,0.25);}
+        .gal-cell img{width:100%;height:100%;object-fit:cover;transition:transform 0.7s,filter 0.6s;filter:saturate(0.95);}
+        .gal-cell:hover img{transform:scale(1.05);filter:saturate(1.05);}
+        .gal-cell .tape{
+            position:absolute;top:-12px;left:50%;transform:translateX(-50%) rotate(-4deg);
+            width:70px;height:22px;background:rgba(255,247,234,0.7);
+            border:1px dashed var(--line-strong);
+        }
+        .gal-cell .label{
+            position:absolute;bottom:0.8rem;left:0.85rem;
+            font-family:'Caveat',cursive;font-size:1.15rem;color:var(--cream);font-weight:600;
+            background:var(--navy);padding:0.1rem 0.7rem;border-radius:3px;
+        }
+        .g1{grid-column:span 7;grid-row:span 4;}
+        .g2{grid-column:span 5;grid-row:span 3;}
+        .g3{grid-column:span 5;grid-row:span 3;}
+        .g4{grid-column:span 4;grid-row:span 4;}
+        .g5{grid-column:span 3;grid-row:span 3;}
+        .g6{grid-column:span 5;grid-row:span 3;}
+
+        /* ========= REVIEWS ========= */
+        .reviews{border-top:1px solid var(--line);background:var(--paper);}
+        .rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:3.5rem;}
+        .rev-card{
+            position:relative;border:1.5px solid var(--line-strong);padding:2.5rem 2rem 1.8rem;
+            background:var(--cream);border-radius:14px;
+            transition:border-color 0.4s,transform 0.4s,box-shadow 0.4s;
+        }
+        .rev-card:hover{border-color:var(--coral);transform:translateY(-4px);box-shadow:0 20px 36px -16px rgba(29,42,58,0.22);}
+        .rev-card .qmark{
+            font-family:'DM Serif Display',serif;font-style:italic;font-size:5rem;color:var(--coral);
+            position:absolute;top:-0.3rem;left:1.4rem;line-height:1;opacity:0.5;
+        }
+        .rev-stars{color:var(--coral);font-size:0.95rem;letter-spacing:0.15em;margin-bottom:1.1rem;position:relative;}
+        .rev-text{font-family:'DM Serif Display',serif;font-style:italic;font-size:1.02rem;line-height:1.7;color:var(--navy);margin-bottom:1.4rem;font-weight:400;}
+        .rev-foot{display:flex;justify-content:space-between;align-items:flex-end;padding-top:1rem;border-top:1px dashed var(--line-strong);}
+        .rev-name{font-weight:600;font-size:0.92rem;color:var(--navy);}
+        .rev-from{font-size:0.7rem;color:var(--navy-mute);letter-spacing:0.12em;text-transform:uppercase;font-weight:500;}
+
+        /* ========= BOOKSY ========= */
+        .booking{border-top:1px solid var(--line);}
+        .book-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;margin-top:3rem;align-items:start;}
+        .book-copy h3{font-family:'DM Serif Display',serif;font-size:2rem;letter-spacing:-0.01em;margin-bottom:1.2rem;line-height:1.05;color:var(--navy);}
+        .book-copy h3 em{font-style:italic;color:var(--coral);}
+        .book-copy p{color:var(--navy-2);font-size:0.98rem;line-height:1.8;margin-bottom:1.2rem;}
+        .book-steps{list-style:none;margin-top:2rem;display:flex;flex-direction:column;gap:0;}
+        .book-steps li{display:flex;gap:1.1rem;align-items:flex-start;padding:1rem 0;border-top:1px dashed var(--line-strong);}
+        .book-steps li:last-child{border-bottom:1px dashed var(--line-strong);}
+        .book-steps .n{font-family:'DM Serif Display',serif;color:var(--coral);font-size:1.4rem;font-style:italic;flex-shrink:0;width:36px;line-height:1;}
+        .book-steps .t{font-size:0.97rem;color:var(--navy);font-weight:600;}
+        .book-steps .t em{display:block;font-style:italic;color:var(--navy-mute);font-size:0.86rem;margin-top:0.2rem;font-weight:400;}
+
+        .booksy-slot{
+            position:relative;background:var(--paper);border:1.5px solid var(--line-strong);
+            padding:0;min-height:520px;overflow:hidden;border-radius:14px;
+        }
+        .booksy-slot::before{
+            content:'';position:absolute;inset:0;
+            background:
+                radial-gradient(circle at 30% 20%,rgba(237,125,98,0.08) 0%,transparent 35%),
+                radial-gradient(circle at 70% 80%,rgba(212,177,141,0.18) 0%,transparent 40%);
+            pointer-events:none;
+        }
+        .booksy-placeholder{
+            position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
+            text-align:center;padding:3rem 2rem;gap:1.3rem;
+        }
+        .booksy-placeholder .badge{
+            font-size:0.65rem;text-transform:uppercase;letter-spacing:0.22em;font-weight:600;
+            color:var(--coral);border:1.5px solid var(--coral);padding:0.45rem 0.9rem;border-radius:100px;
+        }
+        .booksy-placeholder h4{font-family:'DM Serif Display',serif;font-size:2.2rem;line-height:1;color:var(--navy);}
+        .booksy-placeholder h4 em{font-style:italic;color:var(--coral);}
+        .booksy-placeholder p{max-width:340px;color:var(--navy-2);font-size:0.95rem;line-height:1.65;}
+        .booksy-placeholder .ph-foot{font-family:'Caveat',cursive;font-size:1.3rem;color:var(--coral);font-weight:600;margin-top:0.3rem;}
+
+        /* ========= CONTACT ========= */
+        .contact{border-top:1px solid var(--line);background:var(--paper);}
+        .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line-strong);border:1.5px solid var(--line-strong);margin-top:3.5rem;border-radius:14px;overflow:hidden;}
+        .contact-cell{background:var(--cream);padding:2.6rem 2.4rem;}
+        .contact-cell h3{
+            font-family:'DM Serif Display',serif;font-size:1.4rem;letter-spacing:-0.01em;
+            margin-bottom:1.8rem;display:flex;align-items:center;gap:0.8rem;color:var(--navy);
+        }
+        .contact-cell h3::before{content:'';width:24px;height:1.5px;background:var(--coral);}
+        .hours{display:flex;flex-direction:column;}
+        .hours-row{
+            display:flex;justify-content:space-between;align-items:baseline;
+            padding:0.95rem 0;border-bottom:1px dashed var(--line);
+        }
+        .hours-row:last-child{border-bottom:none;}
+        .hours-row.today{color:var(--coral);}
+        .hours-row.today::before{content:'';position:absolute;}
+        .hours-row .day{font-size:0.96rem;font-weight:500;}
+        .hours-row .time{font-size:0.85rem;color:var(--navy-mute);font-weight:500;}
+        .hours-row.today .time,.hours-row.today .day{color:var(--coral);font-weight:600;}
+        .hours-row.today .day::after{content:' · today';font-family:'Caveat',cursive;font-weight:600;font-size:1.1rem;margin-left:0.3rem;}
+        .hours-note{margin-top:1.2rem;padding:0.9rem 1rem;background:var(--paper);border:1px dashed var(--line-strong);border-radius:8px;font-size:0.82rem;color:var(--navy-2);font-style:italic;}
+
+        .ct-info{display:flex;flex-direction:column;gap:0;}
+        .ct-row{display:flex;align-items:flex-start;gap:1.1rem;padding:1.05rem 0;border-bottom:1px dashed var(--line);}
+        .ct-row:last-child{border-bottom:none;}
+        .ct-ico{
+            width:42px;height:42px;border:1.5px solid var(--line-strong);border-radius:50%;
+            display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--coral);background:var(--paper);
+        }
+        .ct-ico svg{width:18px;height:18px;}
+        .ct-lbl{font-size:0.65rem;text-transform:uppercase;letter-spacing:0.2em;color:var(--navy-mute);margin-bottom:0.3rem;font-weight:600;}
+        .ct-v{font-size:1rem;color:var(--navy);font-weight:500;}
+        .ct-v a{color:inherit;text-decoration:none;border-bottom:1px solid transparent;transition:border-color 0.3s,color 0.3s;}
+        .ct-v a:hover{border-bottom-color:var(--coral);color:var(--coral);}
+
+        .map-box{margin-top:2.5rem;height:340px;overflow:hidden;border:1.5px solid var(--line-strong);position:relative;border-radius:14px;}
+        .map-box iframe{width:100%;height:100%;border:0;filter:saturate(0.6) brightness(1.04);}
+        .map-pin{
+            position:absolute;top:1rem;left:1rem;z-index:3;
+            background:var(--cream);border:1.5px solid var(--line-strong);padding:0.55rem 0.9rem;
+            font-size:0.7rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--navy);font-weight:600;
+            border-radius:100px;
+        }
+        .map-pin .coral{color:var(--coral);}
+
+        /* ========= BIG CTA ========= */
+        .cta-final{padding:8rem 2.5rem;text-align:center;border-top:1px solid var(--line);position:relative;overflow:hidden;}
+        .cta-final::before{
+            content:'';position:absolute;inset:0;
+            background:radial-gradient(circle at 50% 30%,rgba(237,125,98,0.18) 0%,transparent 60%);
+            opacity:0.7;pointer-events:none;
+        }
+        .cta-final::after{
+            content:'';position:absolute;bottom:-10%;left:50%;transform:translateX(-50%);width:120%;height:50%;
+            background:radial-gradient(ellipse at center,rgba(212,177,141,0.3) 0%,transparent 60%);pointer-events:none;
+        }
+        .cta-final h2{font-family:'DM Serif Display',serif;font-size:clamp(2.4rem,6vw,4.8rem);line-height:1;letter-spacing:-0.02em;margin-bottom:1.2rem;position:relative;color:var(--navy);}
+        .cta-final h2 em{font-style:italic;color:var(--coral);}
+        .cta-final h2 .hand{font-family:'Caveat',cursive;color:var(--coral);font-size:1em;display:inline-block;transform:rotate(-2deg);font-weight:700;}
+        .cta-final p{color:var(--navy-2);max-width:520px;margin:0 auto 2.5rem;font-size:1.05rem;line-height:1.7;font-style:italic;position:relative;}
+        .cta-final .btn-row{display:flex;gap:0.9rem;justify-content:center;flex-wrap:wrap;position:relative;}
+        .cta-paw{position:absolute;color:var(--coral);opacity:0.18;pointer-events:none;}
+        .cta-paw.p1{top:15%;left:8%;width:55px;transform:rotate(-15deg);}
+        .cta-paw.p2{top:25%;right:10%;width:45px;transform:rotate(20deg);}
+        .cta-paw.p3{bottom:18%;left:14%;width:40px;transform:rotate(35deg);}
+        .cta-paw.p4{bottom:24%;right:15%;width:50px;transform:rotate(-25deg);}
+
+        /* ========= FOOTER ========= */
+        footer{border-top:1.5px solid var(--line-strong);padding:3rem 2.5rem 2rem;background:var(--paper);}
+        .foot-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:3rem;padding-bottom:2.4rem;border-bottom:1px dashed var(--line-strong);}
+        .foot-brand{display:flex;flex-direction:column;gap:1rem;}
+        .foot-brand .lg{display:flex;align-items:center;gap:0.7rem;}
+        .foot-brand .lg svg{width:36px;height:36px;color:var(--navy);}
+        .foot-brand .lg .word{font-family:'DM Serif Display',serif;font-size:1.35rem;letter-spacing:-0.01em;color:var(--navy);}
+        .foot-brand .lg .word em{font-style:italic;color:var(--coral);}
+        .foot-brand p{color:var(--navy-mute);font-size:0.9rem;line-height:1.7;font-style:italic;max-width:280px;}
+        .foot-col h4{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.2em;color:var(--coral);margin-bottom:1.1rem;font-weight:700;}
+        .foot-col ul{list-style:none;display:flex;flex-direction:column;gap:0.55rem;}
+        .foot-col a{color:var(--navy-2);text-decoration:none;font-size:0.92rem;transition:color 0.3s;}
+        .foot-col a:hover{color:var(--coral);}
+        .foot-bot{display:flex;justify-content:space-between;align-items:center;padding-top:1.5rem;flex-wrap:wrap;gap:1rem;}
+        .foot-bot .credit{font-size:0.78rem;letter-spacing:0.05em;color:var(--navy-mute);font-weight:500;}
+        .foot-bot .credit a{color:var(--navy);text-decoration:none;border-bottom:1px solid transparent;transition:border-color 0.3s;}
+        .foot-bot .credit a:hover{border-bottom-color:var(--coral);color:var(--coral);}
+        .foot-bot .stamp{font-family:'Caveat',cursive;color:var(--coral);font-size:1.5rem;font-weight:600;}
+
+        /* ========= REVEAL ========= */
+        .reveal{opacity:0;transform:translateY(28px);transition:opacity 0.9s cubic-bezier(0.16,1,0.3,1),transform 0.9s cubic-bezier(0.16,1,0.3,1);}
+        .reveal.visible{opacity:1;transform:translateY(0);}
+        .d1{transition-delay:0.08s;}.d2{transition-delay:0.16s;}.d3{transition-delay:0.24s;}.d4{transition-delay:0.32s;}.d5{transition-delay:0.4s;}
+
+        /* ========= MEDIA ========= */
+        @media(max-width:980px){
+            .nav-links{display:none;}
+            .nav-links.open{display:flex;flex-direction:column;position:absolute;top:100%;left:1rem;right:1rem;background:rgba(251,238,222,0.97);backdrop-filter:blur(20px);padding:1.2rem;gap:1rem;border:1.5px solid var(--line-strong);border-radius:14px;margin-top:0.5rem;}
+            .menu-toggle{display:flex;}
+            nav{padding:0.9rem 1.5rem;}
+            nav.scrolled{padding:0.65rem 1.5rem;}
+            section{padding:5rem 1.5rem;}
+            .hero{padding:6rem 1.5rem 4rem;}
+            .hero-meta{flex-direction:column;gap:0.7rem;}
+            .hero-bottom{grid-template-columns:1fr;gap:1.8rem;padding-bottom:1rem;}
+            .hero-icon{justify-self:start;}
+            .hero-btns{justify-self:start;}
+            .hero-icon svg{width:64px;height:64px;}
+            .about-grid,.svc-head,.book-grid,.contact-grid,.foot-top{grid-template-columns:1fr;gap:2.5rem;}
+            .strip{grid-template-columns:repeat(2,1fr);}
+            .strip-cell{border-right:none;border-bottom:1px solid var(--line);}
+            .strip-cell:nth-child(odd){border-right:1px solid var(--line);}
+            .strip-cell:nth-last-child(-n+2){border-bottom:none;}
+            .svc-row{grid-template-columns:50px 1fr auto;padding:1.4rem 0.5rem;gap:1rem;}
+            .svc-desc{display:none;}
+            .svc-row:hover{padding-left:1rem;}
+            .size-grid{grid-template-columns:repeat(2,1fr);}
+            .gal-grid{grid-template-columns:repeat(6,1fr);grid-auto-rows:80px;}
+            .g1{grid-column:span 6;grid-row:span 3;}
+            .g2,.g3,.g6{grid-column:span 6;grid-row:span 3;}
+            .g4,.g5{grid-column:span 3;grid-row:span 3;}
+            .rev-grid{grid-template-columns:1fr;}
+            .marquee-item{font-size:1.3rem;}
+            .marquee-item.italic{font-size:1.2rem;}
+            .marquee-item.hand{font-size:1.7rem;}
+        }
+        @media(max-width:560px){
+            .size-grid{grid-template-columns:1fr;}
+            .hero h1{font-size:clamp(2.6rem,12vw,4rem);}
+        }
     </style>
 </head>
 <body>
-    <nav>
-        <a href="#" class="nav-logo">Lilley's Dog Grooming</a>
-        <ul class="nav-links" id="navLinks"><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li></ul>
-        <a href="tel:07440471258" class="nav-cta">Book a Groom</a>
+
+    <!-- ===== NAV ===== -->
+    <nav id="nav">
+        <a href="#" class="nav-logo">
+            <svg viewBox="0 0 64 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <!-- Hand-drawn dog silhouette -->
+                <path d="M8 28 C8 22 12 18 18 18 L20 14 C20 12 22 10 24 11 L26 14 L34 14 L36 11 C38 10 40 12 40 14 L42 18 C48 18 54 22 54 28 L54 36 C54 38 52 40 50 40 L14 40 C12 40 8 38 8 36 Z"/>
+                <circle cx="22" cy="24" r="1" fill="currentColor"/>
+                <circle cx="32" cy="24" r="1" fill="currentColor"/>
+                <path d="M25 28 L29 28 L27 30 Z" fill="currentColor"/>
+                <path d="M14 16 L17 19 M40 19 L43 16" opacity="0.6"/>
+            </svg>
+            <span class="word">Lilley's <em>Dog Grooming</em></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#sizing">Pricing</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#booking">Book</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="tel:07440471258" class="nav-cta">Book a groom <span class="arr">&rarr;</span></a>
         <button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">&#9776;</button>
     </nav>
 
+    <!-- ===== HERO ===== -->
     <section class="hero">
-        <div class="hero-orb hero-orb-1"></div><div class="hero-orb hero-orb-2"></div>
+        <div class="hero-meta">
+            <div class="ml"><span class="pulse">By appointment</span><span>&middot; Bowland Drive, Kettering</span></div>
+            <div class="ml"><span>City &amp; Guilds Lvl 3</span><span>&middot; First Aid Trained</span></div>
+        </div>
+
         <div class="hero-content">
-            <div class="hero-pill reveal"><span class="dot"></span> City &amp; Guilds Level 3 Qualified</div>
-            <h1 class="reveal reveal-d1">Lilley's<br><em>Dog Grooming</em></h1>
-            <p class="reveal reveal-d2">Professional, caring grooming for your best friend. City &amp; Guilds Level 3 qualified, first aid trained, and 1-to-1 personalised care in Kettering.</p>
-            <div class="hero-btns reveal reveal-d3">
-                <a href="tel:07440471258" class="btn-soft">Book a Groom &rarr;</a>
-                <a href="#services" class="btn-light">View Services</a>
+            <div class="hero-tag reveal">Boutique dog grooming &middot; Kettering</div>
+            <h1>
+                <span class="row reveal d1">Tail-wagging</span>
+                <span class="row reveal d2"><em>care,</em> <span class="hand">paw</span> by paw &mdash;</span>
+                <span class="row reveal d3"><span class="underline-mark">one pup at a time.</span></span>
+            </h1>
+
+            <div class="hero-bottom">
+                <p class="hero-lede reveal d4">Professional, calm, <strong>1-to-1</strong> grooming for every breed and temperament &mdash; from puppy first cuts to nervous rescues. <strong>City &amp; Guilds Level 3</strong> qualified and pet first-aid trained, working out of Kettering by appointment only.</p>
+                <div class="hero-icon reveal d4">
+                    <svg viewBox="0 0 100 80" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                        <!-- Sitting dog line drawing -->
+                        <path d="M30 60 C25 60 22 56 22 52 L22 38 C22 32 26 28 32 28 L34 24 C34 21 36 18 39 18 L41 22 L52 22 L54 18 C57 18 59 21 59 24 L61 28 C67 28 71 32 71 38 L71 52 C71 60 78 60 78 64"/>
+                        <path d="M30 60 L30 70 M40 65 L40 70 M55 65 L55 70 M65 60 L65 70"/>
+                        <circle cx="38" cy="34" r="0.9" fill="currentColor"/>
+                        <circle cx="55" cy="34" r="0.9" fill="currentColor"/>
+                        <path d="M44 39 L49 39 L46.5 42 Z" fill="currentColor"/>
+                        <path d="M28 22 L32 28 M65 28 L69 22" opacity="0.7"/>
+                        <path d="M78 64 C82 64 84 62 84 58" opacity="0.7"/>
+                    </svg>
+                </div>
+                <div class="hero-btns reveal d5">
+                    <a href="#booking" class="btn btn-solid">Book a groom <span class="arr">&rarr;</span></a>
+                    <a href="#sizing" class="btn btn-ghost">See pricing</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <div class="stats-strip">
-        <div class="stat-cell"><div class="stat-val">Level 3</div><div class="stat-lbl">City &amp; Guilds</div></div>
-        <div class="stat-cell"><div class="stat-val">First Aid</div><div class="stat-lbl">Pet Safety</div></div>
-        <div class="stat-cell"><div class="stat-val">1-to-1</div><div class="stat-lbl">Personalised Care</div></div>
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+            <span class="marquee-item">Full Grooms <span class="dot">&#10038;</span></span>
+            <span class="marquee-item italic">&mdash; bath &amp; dry &mdash;</span>
+            <span class="marquee-item">Puppy First Cuts <span class="dot">&#10038;</span></span>
+            <span class="marquee-item hand">good dogs only</span>
+            <span class="marquee-item italic">&mdash; nail clipping &mdash;</span>
+            <span class="marquee-item">De-matting <span class="dot">&#10038;</span></span>
+            <span class="marquee-item italic">&mdash; teeth cleaning &mdash;</span>
+            <span class="marquee-item hand">level 3 qualified</span>
+            <span class="marquee-item">Full Grooms <span class="dot">&#10038;</span></span>
+            <span class="marquee-item italic">&mdash; bath &amp; dry &mdash;</span>
+            <span class="marquee-item">Puppy First Cuts <span class="dot">&#10038;</span></span>
+            <span class="marquee-item hand">good dogs only</span>
+            <span class="marquee-item italic">&mdash; nail clipping &mdash;</span>
+            <span class="marquee-item">De-matting <span class="dot">&#10038;</span></span>
+            <span class="marquee-item italic">&mdash; teeth cleaning &mdash;</span>
+            <span class="marquee-item hand">level 3 qualified</span>
+        </div>
     </div>
 
-    <section id="about">
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
         <div class="container">
-            <div class="sec-eyebrow reveal">About Us</div>
+            <div class="sec-num reveal">01 / The Salon</div>
+            <h2 class="sec-title reveal d1">A calm room, <em>a kind hand,</em><br>and one <span class="hand">very lucky</span> pup at a time.</h2>
+
             <div class="about-grid">
-                <div class="about-img reveal"><img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800" alt="Lilley's Dog Grooming" loading="lazy"></div>
-                <div class="about-body reveal reveal-d1">
-                    <h3>Professional Dog Grooming</h3>
-                    <p>Lilley's Dog Grooming provides professional, caring grooming for dogs of all breeds in Kettering. City &amp; Guilds Level 3 qualified and first aid trained, every pup gets 1-to-1 personalised attention.</p>
-                    <p>From full grooms to puppy introductions, nail clipping to de-matting, we treat every dog as if they were our own.</p>
+                <div class="about-img reveal d2">
+                    <span class="hand-tag">hi, hello!</span>
+                    <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1000&q=85" alt="A dog being groomed at Lilley's" loading="lazy">
+                    <div class="about-img-stamp">Bowland Drive &middot; Kettering</div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="sec-eyebrow reveal">What We Offer</div>
-            <h2 class="sec-heading reveal reveal-d1">Our Services</h2>
-            <p class="sec-sub reveal reveal-d2">Tail-wagging treatments for every breed.</p>
-            <div class="svc-grid">
-                <div class="svc-card reveal"><div class="svc-icon">&#128054;</div><h3>Full Groom</h3><p>Bath, dry, clip &amp; style for your pup.</p><span class="svc-price-tag">From &pound;30</span></div>
-                <div class="svc-card reveal reveal-d1"><div class="svc-icon">&#128166;</div><h3>Bath &amp; Dry</h3><p>Freshen up treatment to keep them clean.</p><span class="svc-price-tag">&pound;20</span></div>
-                <div class="svc-card reveal reveal-d2"><div class="svc-icon">&#128021;</div><h3>Puppy First Groom</h3><p>Gentle introduction for your puppy.</p><span class="svc-price-tag">&pound;20</span></div>
-                <div class="svc-card reveal"><div class="svc-icon">&#9986;</div><h3>Nail Clipping</h3><p>Quick &amp; careful nail trimming.</p><span class="svc-price-tag">&pound;8</span></div>
-                <div class="svc-card reveal reveal-d1"><div class="svc-icon">&#10024;</div><h3>Teeth Cleaning</h3><p>Fresh breath guaranteed.</p><span class="svc-price-tag">&pound;10</span></div>
-                <div class="svc-card reveal reveal-d2"><div class="svc-icon">&#128296;</div><h3>De-matting</h3><p>Assessed per dog, gentle removal.</p><span class="svc-price-tag">Quote</span></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="gallery">
-        <div class="container">
-            <div class="sec-eyebrow reveal">Our Work</div>
-            <h2 class="sec-heading reveal reveal-d1">Gallery</h2>
-            <div class="gal-grid reveal reveal-d2">
-                <div class="gal-cell"><img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800" alt="Happy dog" loading="lazy"></div>
-                <div class="gal-cell"><img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800" alt="Happy dogs" loading="lazy"></div>
-                <div class="gal-cell"><img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800" alt="Dog grooming" loading="lazy"></div>
-                <div class="gal-cell"><img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=800" alt="Happy dog" loading="lazy"></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="reviews">
-        <div class="container">
-            <div class="sec-eyebrow reveal">Testimonials</div>
-            <h2 class="sec-heading reveal reveal-d1">What Our Customers Say</h2>
-            <div class="rev-grid">
-                <div class="rev-card reveal"><div class="rev-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="rev-text">My dog absolutely loves going to Lilley's. He gets so excited in the car on the way there &mdash; that tells you everything!</p><div class="rev-author-row"><div class="rev-avatar">CW</div><div><div class="rev-name">Claire W.</div><div class="rev-from">Google Review</div></div></div></div>
-                <div class="rev-card reveal reveal-d1"><div class="rev-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="rev-text">So gentle and patient with our nervous rescue. Took her time and our dog came back looking and smelling amazing.</p><div class="rev-author-row"><div class="rev-avatar">TB</div><div><div class="rev-name">Tom B.</div><div class="rev-from">Google Review</div></div></div></div>
-                <div class="rev-card reveal reveal-d2"><div class="rev-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="rev-text">Our Cockapoo always looks amazing after a visit. Wouldn't trust anyone else with our fur baby. Highly recommend!</p><div class="rev-author-row"><div class="rev-avatar">SK</div><div><div class="rev-name">Sarah K.</div><div class="rev-from">Google Review</div></div></div></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <div class="sec-eyebrow reveal">Get In Touch</div>
-            <h2 class="sec-heading reveal reveal-d1">Contact &amp; Hours</h2>
-            <div class="contact-grid reveal reveal-d2">
-                <div class="contact-card">
-                    <h3>Opening Hours</h3>
-                    <table class="hrs-tbl"><tr><td>By Appointment</td><td>Call to book</td></tr></table>
-                </div>
-                <div class="contact-card">
-                    <h3>Find Us</h3>
-                    <div class="ct-list">
-                        <div class="ct-item"><div class="ct-ico">&#9906;</div><div><div class="ct-lbl">Address</div><div class="ct-val">Bowland Drive, Kettering</div></div></div>
-                        <div class="ct-item"><div class="ct-ico">&#9742;</div><div><div class="ct-lbl">Phone</div><div class="ct-val"><a href="tel:07440471258">07440 471258</a></div></div></div>
-                        <div class="ct-item"><div class="ct-ico">&#9993;</div><div><div class="ct-lbl">Email</div><div class="ct-val"><a href="mailto:lilleysdoggrooming@gmail.com">lilleysdoggrooming@gmail.com</a></div></div></div>
+                <div class="about-copy">
+                    <blockquote class="about-quote reveal d3">
+                        <span class="hand">&ldquo;</span>Every dog walks in different &mdash; the nervous rescue, the wriggly puppy, the senior who&rsquo;d rather not. The job is to listen first, scissors second.
+                    </blockquote>
+                    <p class="about-text reveal d4">Lilley&rsquo;s is a <strong>one-dog-at-a-time</strong> grooming salon in Kettering, run by a <strong>City &amp; Guilds Level 3</strong> qualified and <strong>pet first-aid trained</strong> groomer. No crates of waiting dogs, no rush, no production line &mdash; just your pup getting full attention from start to finish.</p>
+                    <p class="about-text reveal d4">Whether it&rsquo;s a puppy&rsquo;s first introduction, a teddy-bear trim on a Cockapoo, or careful de-matting on a coat that&rsquo;s gone past the brush &mdash; every groom is shaped around the dog in front of us, not the other way around.</p>
+                    <div class="about-creds reveal d5">
+                        <span class="about-cred"><span class="ic">&#9733;</span> City &amp; Guilds Level 3</span>
+                        <span class="about-cred"><span class="ic">&#9825;</span> Pet First Aid Trained</span>
+                        <span class="about-cred"><span class="ic">&#10004;</span> 1-to-1 Personalised Care</span>
                     </div>
                 </div>
             </div>
-            <div class="map-frame reveal reveal-d3">
-                <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Lilleys+Dog+Grooming+Bowland+Drive+Kettering" allowfullscreen loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- ===== STATS STRIP ===== -->
+    <div class="strip">
+        <div class="strip-cell reveal"><span class="idx">/01</span><div class="k">L<em>3</em></div><div class="l">City &amp; Guilds</div></div>
+        <div class="strip-cell reveal d1"><span class="idx">/02</span><div class="k"><em>1:1</em></div><div class="l">One Dog At A Time</div></div>
+        <div class="strip-cell reveal d2"><span class="idx">/03</span><div class="k">All<em>·</em></div><div class="l">Breeds &amp; Sizes</div></div>
+        <div class="strip-cell reveal d3"><span class="idx">/04</span><div class="k">5<em>&#9733;</em></div><div class="l">Owner Rated</div></div>
+    </div>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="sec-num reveal">02 / The Menu</div>
+            <div class="svc-head">
+                <h2 class="sec-title reveal d1">Trims, baths,<br>and a <em>good fuss</em> <span class="hand">throughout.</span></h2>
+                <p class="sec-desc reveal d2">Every service runs at your dog&rsquo;s pace. Final price depends on size, coat condition and how long the cuddle break ends up being &mdash; see size pricing below for a clearer picture.</p>
+            </div>
+
+            <div class="svc-list">
+                <a href="#booking" class="svc-row reveal">
+                    <span class="svc-num">01</span>
+                    <span class="svc-name">Full Groom</span>
+                    <span class="svc-desc">Bath, blow-dry, brush-out, scissor-and-clipper styling, ears, nails &amp; sanitary. The works.</span>
+                    <span class="svc-price"><span class="from">From</span><span class="amt">&pound;30</span></span>
+                    <span class="svc-arr">&rarr;</span>
+                </a>
+                <a href="#booking" class="svc-row reveal d1">
+                    <span class="svc-num">02</span>
+                    <span class="svc-name">Bath &amp; Dry</span>
+                    <span class="svc-desc">Freshen-up wash, blow-dry and brush &mdash; for between-groom maintenance or post-muddy-walk emergencies.</span>
+                    <span class="svc-price"><span class="from">From</span><span class="amt">&pound;20</span></span>
+                    <span class="svc-arr">&rarr;</span>
+                </a>
+                <a href="#booking" class="svc-row reveal d2">
+                    <span class="svc-num">03</span>
+                    <span class="svc-name">Puppy First Groom</span>
+                    <span class="svc-desc">A short, gentle introduction to the salon &mdash; bath, light tidy, nails &amp; lots of treats. Sets them up for life.</span>
+                    <span class="svc-price"><span class="from">From</span><span class="amt">&pound;20</span></span>
+                    <span class="svc-arr">&rarr;</span>
+                </a>
+                <a href="#booking" class="svc-row reveal d3">
+                    <span class="svc-num">04</span>
+                    <span class="svc-name">Nail Clipping</span>
+                    <span class="svc-desc">Quick, careful, no-fuss nail trim &mdash; pop in for a 5 minute appointment.</span>
+                    <span class="svc-price"><span class="from">From</span><span class="amt">&pound;8</span></span>
+                    <span class="svc-arr">&rarr;</span>
+                </a>
+                <a href="#booking" class="svc-row reveal d4">
+                    <span class="svc-num">05</span>
+                    <span class="svc-name">Teeth Cleaning</span>
+                    <span class="svc-desc">Gentle dental clean &mdash; fresh breath, healthier gums, happier owner on the sofa.</span>
+                    <span class="svc-price"><span class="from">From</span><span class="amt">&pound;10</span></span>
+                    <span class="svc-arr">&rarr;</span>
+                </a>
+                <a href="#booking" class="svc-row reveal d5">
+                    <span class="svc-num">06</span>
+                    <span class="svc-name">De-matting</span>
+                    <span class="svc-desc">Assessed per dog. If a coat&rsquo;s past the point of brushing we&rsquo;ll talk it through honestly &mdash; sometimes a clip-off is kinder than a fight.</span>
+                    <span class="svc-price"><span class="from">By</span><span class="amt consult">quote</span></span>
+                    <span class="svc-arr">&rarr;</span>
+                </a>
+            </div>
+
+            <p class="svc-foot reveal">All prices in <span class="coral">GBP</span> &middot; Final quote on consultation &middot; By appointment only</p>
+        </div>
+    </section>
+
+    <!-- ===== SIZE-BASED PRICING ===== -->
+    <section class="sizing" id="sizing">
+        <div class="container">
+            <div class="sec-num reveal">03 / Pricing By Size</div>
+            <div class="svc-head">
+                <h2 class="sec-title reveal d1">Small dog, <em>big dog,</em><br>fluffy <span class="hand">in-between.</span></h2>
+                <p class="sec-desc reveal d2">A starting-point guide while we firm up exact pricing per breed. Final figure is set on first visit once we&rsquo;ve seen coat type, condition and temperament.</p>
+            </div>
+
+            <div class="size-grid">
+                <div class="size-card reveal">
+                    <span class="num">/01</span>
+                    <svg class="pup" viewBox="0 0 90 60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 44 C10 44 8 40 10 36 L14 30 C14 24 19 22 24 22 L26 18 C28 17 30 19 30 21 L36 21 L38 19 C40 19 41 21 40 23 L44 28 C50 28 52 32 52 38 L52 44 C52 47 50 48 48 48 L18 48 C15 48 13 47 14 44 Z"/>
+                        <circle cx="29" cy="28" r="0.8" fill="currentColor"/>
+                        <circle cx="38" cy="28" r="0.8" fill="currentColor"/>
+                        <path d="M32 32 L36 32 L34 34 Z" fill="currentColor"/>
+                        <path d="M52 38 C58 38 62 36 64 32" opacity="0.7"/>
+                    </svg>
+                    <h4>Small</h4>
+                    <p class="breeds">Yorkies, Bichons, Maltese, Shih Tzu, mini doodles</p>
+                    <div class="size-rows">
+                        <div class="size-row"><span class="lbl">Full Groom</span><span class="val">from &pound;30</span></div>
+                        <div class="size-row"><span class="lbl">Bath &amp; Dry</span><span class="val">from &pound;20</span></div>
+                        <div class="size-row"><span class="lbl">Puppy First</span><span class="val">from &pound;20</span></div>
+                    </div>
+                </div>
+
+                <div class="size-card reveal d1">
+                    <span class="num">/02</span>
+                    <svg class="pup" viewBox="0 0 90 60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 44 C8 44 6 40 8 36 L12 28 C12 22 18 19 24 19 L26 14 C28 12 31 14 31 17 L40 17 L42 14 C45 13 47 16 46 19 L50 25 C58 26 62 32 62 38 L62 44 C62 47 60 48 58 48 L16 48 C13 48 11 47 12 44 Z"/>
+                        <circle cx="30" cy="26" r="0.9" fill="currentColor"/>
+                        <circle cx="42" cy="26" r="0.9" fill="currentColor"/>
+                        <path d="M34 30 L40 30 L37 33 Z" fill="currentColor"/>
+                        <path d="M62 38 C68 36 73 33 76 28" opacity="0.7"/>
+                    </svg>
+                    <h4>Medium</h4>
+                    <p class="breeds">Cockapoos, Spaniels, Beagles, Border Collies, Schnauzers</p>
+                    <div class="size-rows">
+                        <div class="size-row"><span class="lbl">Full Groom</span><span class="val">from &pound;40</span></div>
+                        <div class="size-row"><span class="lbl">Bath &amp; Dry</span><span class="val">from &pound;25</span></div>
+                        <div class="size-row"><span class="lbl">Puppy First</span><span class="val">from &pound;25</span></div>
+                    </div>
+                </div>
+
+                <div class="size-card reveal d2">
+                    <span class="num">/03</span>
+                    <svg class="pup" viewBox="0 0 90 60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M10 46 C6 46 4 42 6 36 L10 26 C10 19 17 16 24 16 L26 10 C28 8 32 10 32 14 L42 14 L44 10 C48 9 50 12 49 16 L52 22 C62 23 68 30 68 38 L68 46 C68 49 66 50 64 50 L14 50 C11 50 9 49 10 46 Z"/>
+                        <circle cx="31" cy="24" r="0.9" fill="currentColor"/>
+                        <circle cx="44" cy="24" r="0.9" fill="currentColor"/>
+                        <path d="M35 28 L42 28 L38.5 31 Z" fill="currentColor"/>
+                        <path d="M68 38 C76 36 82 32 84 26" opacity="0.7"/>
+                        <path d="M14 18 L18 22 M52 14 L48 10" opacity="0.6"/>
+                    </svg>
+                    <h4>Large</h4>
+                    <p class="breeds">Labradors, Goldens, Springers, Goldendoodles, Bearded Collies</p>
+                    <div class="size-rows">
+                        <div class="size-row"><span class="lbl">Full Groom</span><span class="val">from &pound;50</span></div>
+                        <div class="size-row"><span class="lbl">Bath &amp; Dry</span><span class="val">from &pound;30</span></div>
+                        <div class="size-row"><span class="lbl">Puppy First</span><span class="val">from &pound;30</span></div>
+                    </div>
+                </div>
+
+                <div class="size-card reveal d3">
+                    <span class="num">/04</span>
+                    <svg class="pup" viewBox="0 0 90 60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M8 48 C4 48 2 44 4 36 L8 22 C8 16 16 12 24 12 L26 6 C29 4 33 6 33 12 L46 12 L48 6 C52 5 54 9 53 13 L58 20 C70 22 76 30 76 40 L76 48 C76 51 74 52 72 52 L12 52 C9 52 7 51 8 48 Z"/>
+                        <circle cx="32" cy="22" r="1" fill="currentColor"/>
+                        <circle cx="48" cy="22" r="1" fill="currentColor"/>
+                        <path d="M37 27 L46 27 L41.5 31 Z" fill="currentColor"/>
+                        <path d="M76 40 C82 38 86 34 88 28" opacity="0.7"/>
+                        <path d="M14 14 L18 18 M58 12 L54 8" opacity="0.6"/>
+                    </svg>
+                    <h4>X-Large</h4>
+                    <p class="breeds">Newfoundlands, Bernese, St Bernards, Old English Sheepdogs</p>
+                    <div class="size-rows">
+                        <div class="size-row"><span class="lbl">Full Groom</span><span class="val">from &pound;65</span></div>
+                        <div class="size-row"><span class="lbl">Bath &amp; Dry</span><span class="val">from &pound;40</span></div>
+                        <div class="size-row"><span class="lbl">Add-ons</span><span class="val">from &pound;8</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="size-foot reveal">
+                <span class="hand-note">add-ons keep the same price for any size &rarr;</span>
+                <p>Nail clipping &pound;8 &middot; Teeth cleaning &pound;10 &middot; De-matting by quote</p>
             </div>
         </div>
     </section>
 
-    <section class="cta-sec">
-        <h2 class="reveal">Book Your Pup In Today</h2>
-        <p class="reveal reveal-d1">Give your best friend the grooming they deserve at Lilley's in Kettering.</p>
-        <a href="tel:07440471258" class="btn-soft reveal reveal-d2">Book a Groom &rarr;</a>
+    <!-- ===== GALLERY ===== -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="sec-num reveal">04 / The Pups</div>
+            <div class="svc-head">
+                <h2 class="sec-title reveal d1">A scrapbook of <em>good</em><br><span class="hand">recent</span> haircuts.</h2>
+                <p class="sec-desc reveal d2">A handful of recent visitors &mdash; teddy trims, fresh-faced puppies, and the occasional very-pleased-with-themselves Cockapoo.</p>
+            </div>
+
+            <div class="gal-grid">
+                <div class="gal-cell g1 reveal"><span class="tape"></span><img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=85" alt="Happy groomed dog" loading="lazy"><span class="label">teddy trim</span></div>
+                <div class="gal-cell g2 reveal d1"><span class="tape"></span><img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=900&q=85" alt="Two happy dogs" loading="lazy"><span class="label">brothers</span></div>
+                <div class="gal-cell g3 reveal d2"><span class="tape"></span><img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=900&q=85" alt="Dog being groomed" loading="lazy"><span class="label">spa day</span></div>
+                <div class="gal-cell g4 reveal d3"><span class="tape"></span><img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=900&q=85" alt="Happy groomed dog" loading="lazy"><span class="label">fresh!</span></div>
+                <div class="gal-cell g5 reveal d4"><span class="tape"></span><img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=700&q=85" alt="Puppy being groomed" loading="lazy"><span class="label">first cut</span></div>
+                <div class="gal-cell g6 reveal d5"><span class="tape"></span><img src="https://images.unsplash.com/photo-1534361960057-19889db9621e?w=900&q=85" alt="Cockapoo" loading="lazy"><span class="label">cockapoo</span></div>
+            </div>
+        </div>
     </section>
 
+    <!-- ===== REVIEWS ===== -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="sec-num reveal">05 / Word From Owners</div>
+            <div class="svc-head">
+                <h2 class="sec-title reveal d1">What the <em>tail-waggers&rsquo;</em><br><span class="hand">people</span> have to say.</h2>
+                <p class="sec-desc reveal d2">A few kind words from owners around Kettering &mdash; pulled straight from Google.</p>
+            </div>
+
+            <div class="rev-grid">
+                <div class="rev-card reveal d2">
+                    <span class="qmark">&ldquo;</span>
+                    <div class="rev-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+                    <p class="rev-text">My dog absolutely loves going to Lilley&rsquo;s. He gets so excited in the car on the way there &mdash; that tells you everything you need to know.</p>
+                    <div class="rev-foot"><span class="rev-name">Claire W.</span><span class="rev-from">Google &middot; 5&#9733;</span></div>
+                </div>
+                <div class="rev-card reveal d3">
+                    <span class="qmark">&ldquo;</span>
+                    <div class="rev-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+                    <p class="rev-text">So gentle and patient with our nervous rescue. Took her time and our dog came back looking and smelling amazing &mdash; and actually relaxed for once.</p>
+                    <div class="rev-foot"><span class="rev-name">Tom B.</span><span class="rev-from">Google &middot; 5&#9733;</span></div>
+                </div>
+                <div class="rev-card reveal d4">
+                    <span class="qmark">&ldquo;</span>
+                    <div class="rev-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+                    <p class="rev-text">Our Cockapoo always looks amazing after a visit. Wouldn&rsquo;t trust anyone else with our fur baby. Highly, highly recommend!</p>
+                    <div class="rev-foot"><span class="rev-name">Sarah K.</span><span class="rev-from">Google &middot; 5&#9733;</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BOOKING ===== -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="sec-num reveal">06 / Booking</div>
+            <div class="svc-head">
+                <h2 class="sec-title reveal d1">Book <em>your</em> dog&rsquo;s<br><span class="hand">spa day.</span></h2>
+                <p class="sec-desc reveal d2">A small, single-dog-at-a-time salon &mdash; slots are limited, so booking ahead is the way. Online booking via Booksy is on the way; for now, give us a ring.</p>
+            </div>
+
+            <div class="book-grid">
+                <div class="book-copy reveal d3">
+                    <h3>How it <em>works.</em></h3>
+                    <p>First-time visitors get a quick chat about coat, behaviour and what kind of finish you&rsquo;d like &mdash; nothing&rsquo;s rushed, and there are no daft questions. Once we know your dog, rebooking is as simple as a text.</p>
+                    <ol class="book-steps">
+                        <li><span class="n">01</span><span class="t">Pick a service<em>full groom, bath &amp; dry, puppy intro, or just a tidy-up</em></span></li>
+                        <li><span class="n">02</span><span class="t">Call or message<em>quick chat about coat type and any quirks</em></span></li>
+                        <li><span class="n">03</span><span class="t">Drop your pup off<em>one dog at a time, no waiting room chaos</em></span></li>
+                        <li><span class="n">04</span><span class="t">Pick up a happier dog<em>we&rsquo;ll text when they&rsquo;re ready, usually 2-3 hours</em></span></li>
+                    </ol>
+                </div>
+
+                <div class="booksy-slot reveal d4" id="booksy-embed">
+                    <!--
+                        BOOKSY WIDGET DROP-IN ZONE
+                        Once Booksy account is set up, paste the widget script & div here.
+                        Booksy provides: <script async src="https://booksy.com/widget/code.js?...">
+                                         <div class="booksy-widget-button" data-id="..."></div>
+                        Remove the .booksy-placeholder div below when live.
+                    -->
+                    <div class="booksy-placeholder">
+                        <span class="badge">Booksy &middot; Coming Soon</span>
+                        <h4>One pup,<br>one <em>chair.</em></h4>
+                        <p>Live booking goes here once the salon&rsquo;s Booksy account is set up &mdash; instant slot selection, deposits and reminders.</p>
+                        <a href="tel:07440471258" class="btn btn-solid">Call to book now <span class="arr">&rarr;</span></a>
+                        <span class="ph-foot">for now &mdash; 07440 471258</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="sec-num reveal">07 / Find Us</div>
+            <div class="svc-head">
+                <h2 class="sec-title reveal d1">Bowland Drive,<br><em>Kettering.</em> <span class="hand">say hi.</span></h2>
+                <p class="sec-desc reveal d2">Strictly by appointment &mdash; please call or message before turning up so we can give your pup our full attention. Hours below are guidance; firm time is set when you book.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-cell reveal d2">
+                    <h3>Opening Hours</h3>
+                    <div class="hours">
+                        <div class="hours-row" data-day="1"><span class="day">Monday</span><span class="time">By appointment</span></div>
+                        <div class="hours-row" data-day="2"><span class="day">Tuesday</span><span class="time">By appointment</span></div>
+                        <div class="hours-row" data-day="3"><span class="day">Wednesday</span><span class="time">By appointment</span></div>
+                        <div class="hours-row" data-day="4"><span class="day">Thursday</span><span class="time">By appointment</span></div>
+                        <div class="hours-row" data-day="5"><span class="day">Friday</span><span class="time">By appointment</span></div>
+                        <div class="hours-row" data-day="6"><span class="day">Saturday</span><span class="time">By appointment</span></div>
+                        <div class="hours-row" data-day="0"><span class="day">Sunday</span><span class="time">Closed</span></div>
+                    </div>
+                    <div class="hours-note">Strictly appointment only &mdash; one dog at a time means we can&rsquo;t take walk-ins. Call or message and we&rsquo;ll fit you in.</div>
+                </div>
+
+                <div class="contact-cell reveal d3">
+                    <h3>Get In Touch</h3>
+                    <div class="ct-info">
+                        <div class="ct-row">
+                            <div class="ct-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
+                            <div><div class="ct-lbl">Address</div><div class="ct-v">Bowland Drive<br>Kettering, Northamptonshire</div></div>
+                        </div>
+                        <div class="ct-row">
+                            <div class="ct-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 5c0 9 7 16 16 16l2-3-4-2-2 2c-3-1-6-4-7-7l2-2-2-4-3 0z"/></svg></div>
+                            <div><div class="ct-lbl">Phone</div><div class="ct-v"><a href="tel:07440471258">07440 471258</a></div></div>
+                        </div>
+                        <div class="ct-row">
+                            <div class="ct-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6 L21 6 L21 18 L3 18 Z"/><path d="M3 6 L12 13 L21 6"/></svg></div>
+                            <div><div class="ct-lbl">Email</div><div class="ct-v"><a href="mailto:lilleysdoggrooming@gmail.com">lilleysdoggrooming@gmail.com</a></div></div>
+                        </div>
+                        <div class="ct-row">
+                            <div class="ct-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12 M12 3 C15 7 15 17 12 21 C9 17 9 7 12 3"/></svg></div>
+                            <div><div class="ct-lbl">Booking</div><div class="ct-v">Strictly by appointment</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-box reveal d4">
+                <span class="map-pin"><span class="coral">&#9679;</span> Bowland Drive &middot; Kettering</span>
+                <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Bowland+Drive+Kettering" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-final">
+        <svg class="cta-paw p1" viewBox="0 0 40 40" fill="currentColor"><circle cx="12" cy="14" r="4"/><circle cx="28" cy="14" r="4"/><circle cx="6" cy="22" r="3"/><circle cx="34" cy="22" r="3"/><ellipse cx="20" cy="30" rx="8" ry="6"/></svg>
+        <svg class="cta-paw p2" viewBox="0 0 40 40" fill="currentColor"><circle cx="12" cy="14" r="4"/><circle cx="28" cy="14" r="4"/><circle cx="6" cy="22" r="3"/><circle cx="34" cy="22" r="3"/><ellipse cx="20" cy="30" rx="8" ry="6"/></svg>
+        <svg class="cta-paw p3" viewBox="0 0 40 40" fill="currentColor"><circle cx="12" cy="14" r="4"/><circle cx="28" cy="14" r="4"/><circle cx="6" cy="22" r="3"/><circle cx="34" cy="22" r="3"/><ellipse cx="20" cy="30" rx="8" ry="6"/></svg>
+        <svg class="cta-paw p4" viewBox="0 0 40 40" fill="currentColor"><circle cx="12" cy="14" r="4"/><circle cx="28" cy="14" r="4"/><circle cx="6" cy="22" r="3"/><circle cx="34" cy="22" r="3"/><ellipse cx="20" cy="30" rx="8" ry="6"/></svg>
+
+        <h2 class="reveal">Ready for a <em>fresh</em><br><span class="hand">good boy</span> haircut?</h2>
+        <p class="reveal d1">Pick up the phone, send a message, or drop us an email &mdash; we&rsquo;ll find a quiet slot for your pup.</p>
+        <div class="btn-row reveal d2">
+            <a href="tel:07440471258" class="btn btn-solid">Call 07440 471258 <span class="arr">&rarr;</span></a>
+            <a href="mailto:lilleysdoggrooming@gmail.com" class="btn btn-ghost">Send an email</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
     <footer>
-        <div class="foot-inner">
-            <span class="foot-logo">Lilley's Dog Grooming</span>
-            <div class="foot-links"><a href="#about">About</a><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></div>
-            <span class="foot-credit">Built by <a href="https://twix.tf" target="_blank">Harry</a></span>
+        <div class="foot-top">
+            <div class="foot-brand">
+                <div class="lg">
+                    <svg viewBox="0 0 64 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M8 28 C8 22 12 18 18 18 L20 14 C20 12 22 10 24 11 L26 14 L34 14 L36 11 C38 10 40 12 40 14 L42 18 C48 18 54 22 54 28 L54 36 C54 38 52 40 50 40 L14 40 C12 40 8 38 8 36 Z"/>
+                        <circle cx="22" cy="24" r="1" fill="currentColor"/>
+                        <circle cx="32" cy="24" r="1" fill="currentColor"/>
+                        <path d="M25 28 L29 28 L27 30 Z" fill="currentColor"/>
+                    </svg>
+                    <span class="word">Lilley&rsquo;s <em>Dog Grooming</em></span>
+                </div>
+                <p>Boutique, one-dog-at-a-time grooming on Bowland Drive, Kettering. City &amp; Guilds Level 3 qualified.</p>
+            </div>
+            <div class="foot-col">
+                <h4>The Salon</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#sizing">Pricing</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="foot-col">
+                <h4>Visit</h4>
+                <ul>
+                    <li><a href="#contact">Hours</a></li>
+                    <li><a href="https://maps.google.com/?q=Bowland+Drive+Kettering" target="_blank" rel="noopener">Directions</a></li>
+                    <li><a href="tel:07440471258">07440 471258</a></li>
+                    <li><a href="#booking">Book a Groom</a></li>
+                </ul>
+            </div>
+            <div class="foot-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:lilleysdoggrooming@gmail.com">Email</a></li>
+                    <li><a href="tel:07440471258">Phone</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot-bot">
+            <span class="credit">&copy; Lilley&rsquo;s Dog Grooming &middot; Kettering, Northamptonshire</span>
+            <span class="stamp">good dogs only &mdash; x</span>
+            <span class="credit">Site by <a href="https://twix.tf" target="_blank" rel="noopener">Harry / twix.tf</a></span>
         </div>
     </footer>
 
     <script>
-        const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:0.08,rootMargin:'0px 0px -40px 0px'});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){e.preventDefault();const t=document.querySelector(this.getAttribute('href'));if(t){t.scrollIntoView({behavior:'smooth'});document.getElementById('navLinks').classList.remove('open');}});});
+        // Nav scroll state
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 40);
+        }, { passive: true });
+
+        // Reveal on scroll
+        const obs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('visible');
+                    obs.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.08, rootMargin: '0px 0px -60px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+        // Smooth scroll + close menu
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                const t = document.querySelector(href);
+                if (t) {
+                    e.preventDefault();
+                    t.scrollIntoView({ behavior: 'smooth' });
+                    document.getElementById('navLinks').classList.remove('open');
+                }
+            });
+        });
+
+        // Highlight today's hours
+        const today = new Date().getDay();
+        const todayRow = document.querySelector(`.hours-row[data-day="${today}"]`);
+        if (todayRow) todayRow.classList.add('today');
     </script>
 </body>
 </html>
